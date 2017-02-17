@@ -5,6 +5,11 @@
     "require": {
         "devio/pipedrive": "^0.3.2"
     },
+    "autoload": {
+        "psr-4": {
+            "Justi\\PipedriveBundle\\": ""
+        }
+    },
     "license": "MIT",
     "authors": [
         {

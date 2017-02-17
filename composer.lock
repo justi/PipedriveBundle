@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "caf701966bdf9470e6a47af0824f1e73",
+    "content-hash": "56bee73f42573c17ae3a9603b8b4d6a7",
     "packages": [
         {
             "name": "devio/pipedrive",
-            "version": "1.0.0",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IsraelOrtuno/pipedrive.git",
-                "reference": "238d1e70eb12cfbe9d79748ae9d132634de96477"
+                "reference": "eac58abc065c625b77dabf113bfb50ac00f4e7a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IsraelOrtuno/pipedrive/zipball/238d1e70eb12cfbe9d79748ae9d132634de96477",
-                "reference": "238d1e70eb12cfbe9d79748ae9d132634de96477",
+                "url": "https://api.github.com/repos/IsraelOrtuno/pipedrive/zipball/eac58abc065c625b77dabf113bfb50ac00f4e7a8",
+                "reference": "eac58abc065c625b77dabf113bfb50ac00f4e7a8",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
-                "illuminate/support": "~4.0|~5.0"
+                "guzzlehttp/guzzle": "^6.1",
+                "illuminate/support": "^5.1"
             },
             "require-dev": {
                 "phpspec/phpspec": "^2.4",
@@ -50,7 +50,7 @@
                 "client",
                 "pipedrive"
             ],
-            "time": "2016-07-26T14:17:07+00:00"
+            "time": "2016-05-23T12:16:03+00:00"
         },
         {
             "name": "doctrine/inflector",

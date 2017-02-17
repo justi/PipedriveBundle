@@ -1,0 +1,15 @@
+{
+    "name": "justi/pipedrive-bundle",
+    "description": "Save to Pipedrive service for SaaS applications",
+    "type": "library",
+    "require": {
+        "devio/pipedrive": "^0.3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justyna Wojtczak",
+            "email": "justine84@gmail.com"
+        }
+    ]
+}

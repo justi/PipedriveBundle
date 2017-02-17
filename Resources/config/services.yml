@@ -1,0 +1,11 @@
+services:
+  justi.pipedrive_connect:
+    class: Devio\Pipedrive\Pipedrive
+    arguments: ['%justi_pipedrive_token%']
+
+  justi.save_to_pipedrive:
+    class: Justi\PipedriveBundle\Services\SaveToPipedrive
+    arguments:
+      - "@serializer"
+      - "@justi.pipedrive_connect"
+
